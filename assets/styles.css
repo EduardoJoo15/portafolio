@@ -483,6 +483,9 @@ footer div p{
 }
 
 @media(max-width:512px){
+  .btn-top-body{
+    display: none;
+  }
   .txt-dev{
     font-size: 4.7em;
   }
@@ -503,6 +506,9 @@ footer div p{
 }
 
 @media(max-width:484px){
+  .btn-top-body{
+    display: none;
+  }
   .sect-5{
     height: 150vh;
   }
@@ -582,6 +588,9 @@ footer div p{
 }
 
 @media(max-width:350px){
+  .btn-top-body{
+    display: none;
+  }
   .profile{
     width: 100%;
     overflow: hidden;
