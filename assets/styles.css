@@ -405,7 +405,7 @@ footer div p{
   height: 50px;
   width: 50px;
   bottom: 9vh;
-  right: 4.8vh;
+  right: 5vh;
   border-radius: 50%;
   font-size: 25px;
   backdrop-filter: blur(2px);
@@ -483,9 +483,7 @@ footer div p{
 }
 
 @media(max-width:512px){
-  .btn-top-body{
-    display: none;
-  }
+  
   .txt-dev{
     font-size: 4.7em;
   }
@@ -506,9 +504,7 @@ footer div p{
 }
 
 @media(max-width:484px){
-  .btn-top-body{
-    display: none;
-  }
+ 
   .sect-5{
     height: 150vh;
   }
@@ -587,10 +583,12 @@ footer div p{
   }
 }
 
+@media(max-width:430px){
+  .name-profile{font-size: 8px;}
+}
+
 @media(max-width:350px){
-  .btn-top-body{
-    display: none;
-  }
+  
   .profile{
     width: 100%;
     overflow: hidden;
